@@ -3,7 +3,7 @@ from pybricks.pupdevices import Motor, ColorSensor, UltrasonicSensor, ForceSenso
 from pybricks.parameters import Button, Color, Direction, Port, Side, Stop
 from pybricks.robotics import DriveBase
 from pybricks.tools import wait, StopWatch
- 
+
 hub = PrimeHub()
  
 from pybricks.hubs import PrimeHub
@@ -41,6 +41,7 @@ robot.settings(800,400,400,100)
  
 hub.speaker.beep(500,100)
  
+#feed whale
 robot.straight(810,Stop.HOLD)
 robot.turn(40,Stop.HOLD)
 robot.straight(50,Stop.HOLD)
@@ -50,7 +51,8 @@ robot.stop()
 RA.run_time(-100,700)
 wait(200)
 RA.run_time(100,700)
-robot.straight(-300,Stop.HOLD)
+#sonar reveal
+robot.straight(-280,Stop.HOLD)
 robot.turn(-55,Stop.HOLD)
 robot.drive(200,0)
 wait(700)
@@ -58,9 +60,10 @@ robot.stop()
 LA.run_time(250,1500,Stop.HOLD)
  
 robot.settings(800,600,600,300)
- 
+#turn back
 robot.straight(-200)
 robot.turn(-15)
 robot.drive(-700,0)
 wait(2000)
-
+ 
+ 

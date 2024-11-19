@@ -18,32 +18,29 @@ robot.settings(700,500,400,200)
  
 hub.speaker.beep(500,100)
 
-#collection 1 kirll
+#collection 1 
 robot.straight(300,Stop.HOLD)
 robot.turn(-40,Stop.HOLD)
 robot.straight(150,Stop.HOLD)
 robot.straight(-55,Stop.HOLD)
-
 #Boat flip
-robot.turn(82.5,Stop.HOLD)
+robot.turn(80,Stop.HOLD)
 RG.run_time(-300,800)
-robot.straight(70,Stop.HOLD)
-RG.run_time(500,1200,Stop.HOLD)
-robot.straight(-90,Stop.HOLD)
-RG.run_time(-400,750,Stop.HOLD)
-
-#collection 2 sample
+robot.straight(60,Stop.HOLD)
+RG.run_time(300,3500,Stop.HOLD)
+robot.straight(-80,Stop.HOLD)
+RG.run_time(-600,600,Stop.HOLD)
+RG.run_time(400,500,Stop.HOLD)
+#collection 2
 robot.turn(-45,Stop.HOLD)
 robot.straight(400,Stop.HOLD)
 robot.straight(-50,Stop.HOLD)  
-robot.turn(53.5,Stop.HOLD)
-robot.straight(200,Stop.HOLD)
-robot.straight(-190,Stop.HOLD)
-
+robot.turn(54,Stop.HOLD)
+robot.straight(150,Stop.HOLD)
+robot.straight(-230,Stop.HOLD)
 #octopus collection + turn back
-robot.turn(-30,Stop.HOLD)
-robot.straight(-400,Stop.HOLD)
-robot.turn(-35,Stop.HOLD)
-robot.straight(130,Stop.HOLD)
-robot.turn(-45)
+robot.turn(-40,Stop.HOLD)
+robot.straight(-300,Stop.HOLD)
+robot.turn(-50,Stop.HOLD)
+robot.straight(125,Stop.HOLD)
 robot.straight(-500,Stop.HOLD)
